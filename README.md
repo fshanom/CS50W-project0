@@ -1,4 +1,4 @@
-# Project 0 - Recording Studio Website
+# Project 0 - Recording Studio Website using HTML, CSS, Javascript and Bootstrap
 
 Web Programming with Python and JavaScript
 
