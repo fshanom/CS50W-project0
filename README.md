@@ -6,9 +6,12 @@ Hi! My name is Filipe Shanom, and I am from Brazil.
 My project is a website from a fictional recording studio that I made up for this assignment from the CS50W Web Development Course at HarvardX.
 The website contains 4 different pages:
 
--> Home page (index.html) - contains some basic info about the studio and some pictures.\n
--> About page (about.html) - contains some goals and objectives of the company in bootstrap cards and some more photos.\n
--> Recording page (recording.html) - contains the records that were recorded in the studio. I used the bootstrap grid to put the albums side by side and made it responsive to the size of the window.\n
+-> Home page (index.html) - contains some basic info about the studio and some pictures.
+
+-> About page (about.html) - contains some goals and objectives of the company in bootstrap cards and some more photos.
+
+-> Recording page (recording.html) - contains the records that were recorded in the studio. I used the bootstrap grid to put the albums side by side and made it responsive to the size of the window.
+
 ->About page(about.html) - contains a table with the studio's services prices and a contact form to booking sessions and recordings.\n
 
 I used a template navbar from bootstrap and changed the color of the components, as with the buttons from the form.
