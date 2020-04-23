@@ -15,7 +15,7 @@ The website contains 4 different pages:
 ->About page(about.html) - contains a table with the studio's services prices and a contact form to booking sessions and recordings.\n
 
 I used a template navbar from bootstrap and changed the color of the components, as with the buttons from the form.
-The media query that I implemented was a font-size modifier. On small screens, the font of the whole <body> tag gets bigger.
+The media query that I implemented was a font-size modifier. On small screens, the font of the whole body tag gets bigger.
 I also put a simple footer with my name on it.
 All the photos I've taken from Google Images and are not mine.
 
