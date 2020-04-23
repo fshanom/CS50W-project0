@@ -1,0 +1,80 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+body {
+  background-color: whitesmoke; }
+
+.navbar-custom {
+  background-color: purple;
+  color: white; }
+  .navbar-custom .navbar-toggler {
+    color: white; }
+  .navbar-custom .navbar-brand {
+    color: white; }
+    .navbar-custom .navbar-brand :hover {
+      color: #dad8d8; }
+  .navbar-custom #navbarNavAltMarkup .navbar-nav .nav-item.nav-link:hover {
+    color: #dad8d8; }
+  .navbar-custom #navbarNavAltMarkup .navbar-nav .nav-item.nav-link.active {
+    background-color: #640264; }
+    .navbar-custom #navbarNavAltMarkup .navbar-nav .nav-item.nav-link.active :hover {
+      color: #dad8d8; }
+
+.page-content {
+  min-height: 100%;
+  margin: 60px;
+  margin-top: 90px; }
+  .page-content h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center; }
+  .page-content .images {
+    align-items: center;
+    text-align: right; }
+    .page-content .images img {
+      max-width: 100%;
+      overflow: hidden; }
+  .page-content .figure-caption h6 {
+    font-weight: bold; }
+  .page-content button {
+    background-color: purple;
+    border: 2px solid #640264; }
+  .page-content button:hover {
+    background-color: #640264;
+    border: 2px solid purple; }
+
+.record {
+  text-align: right; }
+
+.forms, .my-row, .table {
+  margin-bottom: 30px; }
+
+.my-card {
+  height: 100%; }
+  .my-card .my-card-title {
+    text-align: center; }
+  .my-card .card-body {
+    text-align: justify; }
+
+.table {
+  background-color: white;
+  width: 75%;
+  margin: auto; }
+
+.banner {
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+
+#customfooter {
+  background-color: purple;
+  color: #dad8d8; }
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 1.25rem; }
+
+  #customfooter {
+    font-size: 0.90rem; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Purple Case Studios</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- This is the javascript for the nav button work -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-custom">
+        <a class="navbar-brand" href="#">Purple Case Studios</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="recordings.html">Recordings</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Content of the page -->
+    <div class="page-content">
+        <div class="container">
+            <!-- Header -->
+            <div class="row-12 my-row">
+                <h3>Prices</h3>
+                <p>
+                    These are some of the values ​​for the studio's services.
+                    For clients from other cities, accommodation and transportation are on your own take.
+                </p>
+            </div>
+            <!-- Pricing table -->
+            <div class="row-12 my-row">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">Service</th>
+                            <th scope="col">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Recording Session</td>
+                            <td>$200</td>
+                        </tr>
+                        <tr>
+                            <td>Mixing (per song)</td>
+                            <td>$100</td>
+                        </tr>
+                        <tr>
+                            <td>Mastering (per song)</td>
+                            <td>$150</td>
+                        </tr>
+                        <tr>
+                            <td>Full Single Pack</td>
+                            <td>$500</td>
+                        </tr>
+                        <tr>
+                            <td>Full Album Pack (12 songs)</td>
+                            <td>$5600</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <!-- Contact info and form -->
+            <div class="row my-row">
+                <div class="col-md-6 col-sc-12">
+                    <h3>Contact us to record your music!</h3>
+                    <p>
+                        If you like to record on our studio, let us know!
+                        Submit this contact form and we will reply to you with the dates available!
+                    </p>
+                </div>
+
+                <!-- Form -->
+                <div class="col-md-6 col-sc-12">
+                    <form class="contact-form forms">
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Name</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">How can we help you?</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Recording Session</option>
+                                <option>Mixing</option>
+                                <option>Mastering</option>
+                                <option>Full Single Pack - Producing, Recording and Finishing (Mixing and Mastering)
+                                </option>
+                                <option>Full Album Pack - Producing, Recording and Finishing (Mixing and Mastering)
+                                </option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Tell us about you and your music</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+
+                        <button type="button" class="btn btn-primary">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <!-- Footer -->
+    <footer id="customfooter" class="footer mt-auto py-3">
+        <div class="container">
+            <span>Made by Filipe Shanom for CS50 project0.</span>
+        </div>
+    </footer>
+</body>
+
+</html>
