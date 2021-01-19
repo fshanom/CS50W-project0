@@ -1,9 +1,6 @@
-# Project 0 - Recording Studio Website using HTML, CSS, Javascript and Bootstrap
+# Recording Studio Website using HTML, CSS, Javascript and Bootstrap
 
-Web Programming with Python and JavaScript
-
-Hi! My name is Filipe Shanom, and I am from Brazil.
-My project is a website from a fictional recording studio that I made up for this assignment from the CS50W Web Development Course at HarvardX.
+This project is a website from a fictional recording studio that I made up for this assignment from the CS50W Web Development Course at HarvardX.
 The website contains 4 different pages:
 
 -> Home page (index.html) - contains some basic info about the studio and some pictures.
